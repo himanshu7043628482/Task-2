@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://images.pexels.com/photos/24736912/pexels-photo-24736912/free-photo-of-darkness-in-evergreen-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.stopwatch {
+    text-align: center;
+    background: rgb(55, 55, 55);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#laps {
+    margin-top: 20px;
+}
+
+#laps div {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
